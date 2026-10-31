@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Page  - Resume Portfolio</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- FontAwesome สำหรับไอคอนดาวและอื่นๆ -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar-example" data-bs-offset="70">
+
+    <!-- Navbar Responsive พร้อม Toggle และ Anchor Links -->
+    <nav id="navbar-example" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#about">MyPage </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#about">เกี่ยวกับตัวฉัน</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">ประสบการณ์</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">ทักษะ (Skills)</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#highlights">ข้อมูลทั่วไป</a></li>
+                    <li class="nav-item"><a class="btn btn-outline-light ms-lg-3 btn-sm mt-2 mt-lg-0" href="contact.html">หน้าติดต่อ (Contact)</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section: เกี่ยวกับตัวฉัน (About Me) - ใช้ Table จัด Layout รูปและข้อความตามโจทย์ -->
+    <section id="about" class="bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4 fw-bold">เกี่ยวกับตัวฉัน (About Me)</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <div class="card shadow-sm border-0 p-4">
+                        <!-- Table Layout สำหรับ Profile ตามโจทย์หน้า 59 -->
+                        <table class="table profile-table mb-0 align-middle">
+                            <tr>
+                                <td class="text-center" style="width: 30%;">
+                                    <!-- รูปวงกลม -->
+                                    <img src="IMG_20260411_203149_203.jpg" alt="Profile Picture" class="profile-img">
+                                </td>
+                                <td>
+                                    <!-- ชื่อ-นามสกุลแบบ h1 -->
+                                    <h1 class="fw-bold mb-2">นายเจตนพัฒน์ ใจหมั้น</h1>
+                                    <!-- สาขาวิชาเป็นตัวเอียง em -->
+                                    <p class="fs-5 mb-1"><em>สาขาวิชาคอมพิวเตอร์และปัญญาประดิษฐ์</em></p>
+                                    <p class="text-muted mb-1">คณะวิศวกรรมศาสตร์</p>
+                                    <!-- ชื่อสถาบันพร้อมลิงก์ -->
+                                    <p class="mb-0"><a href="http://pim.ac.th" target="_blank" class="fw-semibold text-decoration-none">สถาบันการจัดการปัญญาภิวัฒน์ (PIM)</a></p>
+                                </td>
+                            </tr>
+                        </table>
+                        <hr class="my-4">
+                        <p class="lead text-center mb-0">
+                            นักศึกษาชั้นปีที่ 2 ผู้มีความมุ่งมั่นในการพัฒนาเว็บแอปพลิเคชัน รักการเรียนรู้เทคโนโลยีใหม่ๆ และพร้อมเก็บเกี่ยวประสบการณ์จากการฝึกงานเพื่อก้าวสู่การเป็น Developer มืออาชีพ
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section: ข้อมูลเพิ่มเติมด้วย ol หรือ ul (อย่างน้อย 3 อย่าง) -->
+    <section id="highlights">
+        <div class="container">
+            <h2 class="text-center mb-4 fw-bold">เป้าหมายและจุดเด่น (Highlights)</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="card p-4 shadow-sm border-0">
+                        <ul class="fs-5 mb-0">
+                            <li class="mb-2">มีความรับผิดชอบสูง พร้อมเรียนรู้กระบวนการทำงานจริงในสถานประกอบการ</li>
+                            <li class="mb-2">มีทักษะการทำงานร่วมกับผู้อื่นและการสื่อสารที่ดีในทีม</li>
+                            <li>มุ่งมั่นพัฒนาผลงานโปรเจกต์ซอฟต์แวร์ที่มีคุณภาพและใช้งานได้จริง</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section: ประสบการณ์ (Experience) - ตาราง 4 คอลัมน์ หรือตารางประวัติการทำงาน -->
+    <section id="experience" class="bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4 fw-bold">ประวัติการทำงานและประสบการณ์ (Experience)</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <div class="table-responsive shadow-sm">
+                        <table class="table table-bordered table-striped bg-white align-middle mb-0">
+                            <thead class="table-dark text-center">
+                                <tr>
+
+                                    <th>Work Place / Project</th>
+                                    <th>Role</th>
+                                    <th>Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+
+                                    <td>Panyapiwat Institute of Management</td>
+                                    <td>Student / Developer</td>
+                                    <td>ศึกษาด้านคอมพิวเตอร์และทำโปรเจกต์เว็บแอปพลิเคชันร่วมกับเพื่อนร่วมชั้น</td>
+                                </tr>
+                                <tr>
+                                    
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section: ทักษะ (Skills) - รูปแบบดาว -->
+    <section id="skills">
+        <div class="container">
+            <h2 class="text-center mb-4 fw-bold">ทักษะความสามารถ (Skills)</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="card p-4 shadow-sm border-0">
+                        <div class="row g-3">
+                            <div class="col-md-6 d-flex justify-content-between align-items-center border-bottom pb-2">
+                                <span class="fw-semibold">Java Programming</span>
+                                <span class="text-warning">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+                                </span>
+                            </div>
+                            <div class="col-md-6 d-flex justify-content-between align-items-center border-bottom pb-2">
+                                <span class="fw-semibold">English</span>
+                                <span class="text-warning">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+                                </span>
+                            </div>
+                            <div class="col-md-6 d-flex justify-content-between align-items-center border-bottom pb-2">
+                                <span class="fw-semibold">SQL & Database</span>
+                                <span class="text-warning">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+                                </span>
+                            </div>
+                            <div class="col-md-6 d-flex justify-content-between align-items-center border-bottom pb-2">
+                                <span class="fw-semibold">HTML / CSS / Bootstrap</span>
+                                <span class="text-warning">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer ตามโจทย์ (ใส่ลิงก์ GitHub และ contact.html) -->
+    <footer class="bg-black text-white text-center py-4">
+        <div class="container">
+            <p class="mb-2">&copy; 2026 MyPage v2. Built with Bootstrap 5 & CSS.</p>
+            <p class="mb-0">
+                <a href="https://github.com/zerorft987654321-cloud" target="_blank" class="text-info text-decoration-none me-3"><i class="fab fa-github"></i> GitHub Repository</a>
+                <a href="contact.html" class="text-warning text-decoration-none"><i class="fas fa-envelope"></i> ติดต่อเรา (Contact)</a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

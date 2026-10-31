@@ -1,4 +1,4 @@
-/* ตั้งค่าพื้นฐาน */
+
 body {
     position: relative;
     padding-top: 56px;
@@ -9,7 +9,7 @@ section {
     padding: 60px 0;
 }
 
-/* ตกแต่งรูปโปรไฟล์วงกลม */
+
 .profile-img {
     width: 150px;
     height: 150px;
@@ -19,12 +19,12 @@ section {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* ปรับแต่ง Table Profile ไม่ให้มีเส้นขอบกวนสายตา */
+
 .profile-table td {
     border: none !important;
 }
 
-/* Hover Effect สำหรับการ์ดต่างๆ */
+
 .card {
     transition: transform 0.2s ease-in-out;
 }
